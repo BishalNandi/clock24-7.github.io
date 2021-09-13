@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Staatliches&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:url(clock3.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    min-height: 100vh;
+    display: flex;
+   flex-direction: column;
+    
+    
+}
+
+.main{
+    /* background: grey; */
+    /* width: 400px; */
+    margin:100px auto;
+    height: 15em;
+    width: 35%;
+    position: relative;
+    border: 3px solid black;
+}
+
+.badges{
+    background: #e66357;
+    color: white;
+    padding: 4px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 5em;
+    top: 10px;
+    left: 50%;
+    position: absolute;
+    
+}
+
+.clock{
+    background: #eef3f0;
+    text-align: center;
+    font-size: 55px;
+    height: 100%;
+    padding: 40px 40px;
+    font-family: 'Orbitron', sans-serif;
+    /* border: 3px solid red; */
+
+}
+
+.footer{
+    margin-bottom: auto;
+
+
+}
+
+h5{
+
+    color: #e66357;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+h4{
+    color: blue;
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+footer p{
+    margin-top: 100px;
+}
+
+.firstbox{
+
+    background: transparent;
+    height: 80px;
+    /* display: flex; */
+    /* display: inline-block; */
+    width: 100%;
+    /* margin:5%; */
+    border: 2px ;
+    border-radius: 3px;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Staatliches', cursive;
+    color: rgb(13, 13, 14);
+    text-align: center;
+    /* margin-top: 10px; */
+    font-size: 30px;
+}
+
+.secondbox{
+
+    font-family: 'Fjalla One'; 
+    /* background: red; */
+    /* color: red; */
+}
+
